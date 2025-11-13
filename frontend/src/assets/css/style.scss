@@ -136,6 +136,10 @@ footer{
         border-top: 1px solid rgba($primary-white, 0.10);
         border-bottom: 1px solid rgba($primary-white, 0.10);
     }
+    svg {
+        color: cyan;
+        margin-right: 15px;
+    }
 }
 
 .section-1{
@@ -176,9 +180,9 @@ footer{
         a{
             font-size: small;
             font-weight: 600;
-            color: cyan;
-            &::hover{
-                color: dodgerblue;
+            color: $tertiary-color;
+            &:hover{
+                color: cyan;
             }
         }
         .price{
