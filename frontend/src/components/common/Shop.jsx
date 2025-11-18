@@ -3,6 +3,7 @@ import Hero from './Hero'
 import Layout from './Layout'
 
 import product1 from '../../assets/images/men/men-1.avif';
+import { Link } from 'react-router-dom';
 
 const Shop = () => {
   return (
@@ -86,10 +87,12 @@ const Shop = () => {
           <div className='col-md-4 col-6'>
               <div className='product card border-0'>
                   <div className='card-img'>
+                    <Link to="/product">
                       <img src={product1} alt="product1" className='w-100'/>
+                      </Link>
                   </div>
-                  <div className='card-body pt-3'>
-                      <a href='#'> Casual Shirt </a>
+                  <div className='card-body pt-3 mx-5'>
+                      <Link to='/product'> Casual Shirt </Link>
                       <div className='price'> 
                           UGX 40,000/=  <br/>
                           <span className='text-decoration-line-through'> 
@@ -105,7 +108,7 @@ const Shop = () => {
                   <div className='card-img'>
                       <img src={product1} alt="product1" className='w-100'/>
                   </div>
-                  <div className='card-body pt-3'>
+                  <div className='card-body pt-3 mx-5'>
                       <a href='#'> Casual Shirt </a>
                       <div className='price'> 
                           UGX 40,000/=  <br/>
@@ -122,7 +125,7 @@ const Shop = () => {
               <div className='card-img'>
                   <img src={product1} alt="product1" className='w-100'/>
               </div>
-              <div className='card-body pt-3'>
+              <div className='card-body pt-3 mx-5'>
                   <a href='#'> Casual Shirt </a>
                   <div className='price'> 
                       UGX 40,000/=  <br/>
@@ -139,7 +142,7 @@ const Shop = () => {
               <div className='card-img'>
                   <img src={product1} alt="product1" className='w-100'/>
               </div>
-              <div className='card-body pt-3'>
+              <div className='card-body pt-3 mx-5'>
                   <a href='#'> Casual Shirt </a>
                   <div className='price'> 
                       UGX 40,000/=  <br/>
@@ -156,7 +159,7 @@ const Shop = () => {
             <div className='card-img'>
                 <img src={product1} alt="product1" className='w-100'/>
             </div>
-            <div className='card-body pt-3'>
+            <div className='card-body pt-3 mx-5'>
                 <a href='#'> Casual Shirt </a>
                 <div className='price'> 
                     UGX 40,000/=  <br/>
@@ -173,7 +176,7 @@ const Shop = () => {
               <div className='card-img'>
                   <img src={product1} alt="product1" className='w-100'/>
               </div>
-              <div className='card-body pt-3'>
+              <div className='card-body pt-3 mx-5'>
                   <a href='#'> Casual Shirt </a>
                   <div className='price'> 
                       UGX 40,000/=  <br/>
