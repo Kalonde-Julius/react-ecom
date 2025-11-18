@@ -5,7 +5,7 @@ To run the Frontend (React) via cmd :
 - npm install
 - npm run dev
 
-- To run the Backend (Laravel) via cmd :
+To run the Backend (Laravel) via cmd :
 - cd backend
 - composer update
 - npm install
